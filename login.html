@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-page">
+
+    <div class="container">
+
+        <h2>Student Login</h2>
+
+        <input type="text" id="name" placeholder="Enter Student Name">
+
+        <input type="password" id="password" placeholder="Enter Password">
+
+        <button class="btn" onclick="login()">
+            Enter
+        </button>
+
+    </div>
+
+    <script>
+        function login() {
+
+            var name = document.getElementById("name").value.trim();
+            var password = document.getElementById("password").value.trim();
+
+            if (name === "Afsal Mohammed R" && password === "20IKC26") {
+                window.location.href = "home.html";
+            }
+            else {
+                alert("User Not Found");
+            }
+        }
+    </script>
+
+</body>
+</html>

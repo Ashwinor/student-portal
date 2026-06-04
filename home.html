@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home-page">
+
+```
+<div class="navbar">
+
+    <div class="logo-section">
+        <img src="logo.jpg.png" class="top-logo">
+    </div>
+
+    <div class="menu">
+
+        <a href="#">HOME</a>
+
+        <a href="javascript:void(0)" onclick="showAttendance()">
+            ATTENDANCE
+        </a>
+
+        <a href="#" onclick="serverBusy()">
+            DOWNLOADS
+        </a>
+
+        <a href="#" onclick="serverBusy()">
+            APPLY ONLINE
+        </a>
+
+        <a href="#" onclick="serverBusy()">
+            STUDENT SUPPORT
+        </a>
+
+    </div>
+
+    <div class="welcome">
+        👋 Welcome, Afsal Mohammed R
+        <a href="index.html">🚪 Sign Out</a>
+    </div>
+
+</div>
+
+<div class="main-container">
+
+    <div class="profile-card">
+
+        <img src="student.jpeg" class="student-photo">
+
+        <h2>Afsal Mohammed R</h2>
+
+        <p><b>Class:</b> 5th Semester</p>
+
+        <p><b>Mobile:</b> 9742124892</p>
+
+        <div id="attendanceBox" style="display:none;">
+
+            <div class="attendance-card">
+
+                <h3>📊 Current Attendance</h3>
+
+                <p><b>Classes Conducted:</b> 290</p>
+
+                <p><b>Classes Attended:</b> 278</p>
+
+                <p><b>Attendance Percentage:</b> 95.86%</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="notification-card">
+
+        <div class="notification-card">
+
+```
+<h1>🔔 Notifications</h1>
+
+<ul>
+
+    <li>
+    <a href="#" onclick="serverBusy()">
+        Admission Open for 2027
+    </a>
+</li>
+
+<br>
+
+<li>
+    <a href="#" onclick="serverBusy()">
+        Annual Fee Payment
+    </a>
+</li>
+
+<br>
+
+<li>
+    <a href="fees.html">
+        Pay Examination Fees
+    </a>
+</li>
+
+</ul>
+
+</div>
+
+<script>
+
+    function showAttendance() {
+
+        var box = document.getElementById("attendanceBox");
+
+        if (box.style.display === "none") {
+            box.style.display = "block";
+        }
+        else {
+            box.style.display = "none";
+        }
+
+    }
+
+    function serverBusy() {
+
+        alert("Server Busy");
+
+    }
+
+</script>
+```
+
+</body>
+
+</html>
