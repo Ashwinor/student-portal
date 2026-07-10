@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="fees-page">
+
+<div class="payment-box" id="loadingBox">
+
+    <div class="fees-card">
+
+        <h1>📄 Examination Results</h1>
+
+        <h2>Loading Results...</h2>
+
+        <div class="loader"></div>
+
+    </div>
+
+</div>
+
+<script>
+
+setTimeout(function(){
+
+    document.body.innerHTML = `
+
+    <div class="payment-box">
+
+        <div class="fees-card">
+
+            <h1>📄 Examination Results</h1>
+
+            <img src="marksheet.jpg.png" class="qr-image">
+
+            <br><br>
+
+            <a href="home.html">
+                ← Back to Dashboard
+            </a>
+
+        </div>
+
+    </div>
+
+    `;
+
+},5000);
+
+</script>
+
+</body>
+
+</html>
