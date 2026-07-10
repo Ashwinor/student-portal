@@ -36,11 +36,17 @@ setTimeout(function(){
 
             <img src="marksheet.jpg.png" class="qr-image">
 
-            <br><br>
+<br><br>
 
-            <a href="home.html">
-                ← Back to Dashboard
-            </a>
+<button onclick="downloadPDF()" class="btn">
+    🖨️ Print / Download PDF
+</button>
+
+<br><br>
+
+<a href="home.html">
+    ← Back to Dashboard
+</a>
 
         </div>
 
@@ -49,6 +55,12 @@ setTimeout(function(){
     `;
 
 },5000);
+
+function downloadPDF(){
+
+    window.print();
+
+}
 
 </script>
 

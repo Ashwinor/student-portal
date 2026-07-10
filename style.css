@@ -596,3 +596,28 @@ transition:0.3s;
 
     transform:scale(1.05);
 }
+@media print{
+
+    body{
+        background:white;
+    }
+
+    .btn,
+    a{
+        display:none;
+    }
+
+    .fees-card{
+        box-shadow:none;
+        border:none;
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+
+    .qr-image{
+        width:700px;
+        max-width:100%;
+    }
+
+}
