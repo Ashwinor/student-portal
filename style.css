@@ -844,9 +844,9 @@ transition:0.3s;
 
 /* ========================= */
 
-.pass{
+.fail{
 
-    background:#34c759;
+    background:#FF0000;
 
     color:white;
 
