@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home-page">
+
+<div class="fees-card">
+
+    <h1>🛠 Admin Dashboard</h1>
+
+    <h2>Server Status</h2>
+
+    <h1 style="color:green;">🟢 ONLINE</h1>
+
+    <br>
+
+    <form action="/admin/server/off" method="POST">
+        <button class="btn" style="background:#ff3b30;">
+            🔴 Turn OFF Server
+        </button>
+    </form>
+
+    <br>
+
+    <form action="/admin/server/on" method="POST">
+        <button class="btn" style="background:#34c759;">
+            🟢 Turn ON Server
+        </button>
+    </form>
+
+    <br><br>
+
+    <a href="index.html">Logout</a>
+
+</div>
+
+</body>
+
+</html>
